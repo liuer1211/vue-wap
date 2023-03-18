@@ -1,24 +1,21 @@
-# vue-wap
+# 开始
+    node -v
+      v16.17.1
 
-## Project setup
-```
-yarn install
-```
+    vue -V
+      @vue/cli 4.5.15
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+    vue create vue-wap
 
-### Compiles and minifies for production
-```
-yarn build
-```
+    cd vue-wap
+    npm run serve
+    npm run build
 
-### Lints and fixes files
-```
-yarn lint
-```
+    git init
+    git add .
+    git commit -m "first commit"
+    git push --set-upstream origin master
+    git remote add origin git@github.com:liuer1211/vue-wap.git
+    git push
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 
