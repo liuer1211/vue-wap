@@ -18,4 +18,12 @@
     git remote add origin git@github.com:liuer1211/vue-wap.git
     git push
 
-# 
+# express 后台服务
+    npm install express -g
+    npm install express-generator -g
+
+    express --version
+    4.16.1
+
+    
+
