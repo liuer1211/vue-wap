@@ -7,6 +7,7 @@
 var app = require('../app');
 var debug = require('debug')('node-express-serve:server');
 var http = require('http');
+const { appendFile } = require('fs/promises');
 
 /**
  * Get port from environment and store in Express.
