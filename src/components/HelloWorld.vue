@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import axiosFun from "../utils/request"
+import {axiosFun} from "../utils/api"
 
 export default {
   name: 'HelloWorld',
@@ -16,16 +16,22 @@ export default {
     msg: String
   },
   methods:{
+    // 点击事件
     async hanldAxiosFun() {
       let data = {
         name: 'moke',
         age: 12
       }
       axiosFun(data).then(res=>{
-        console.log("=======", res)
+        console.log("响应数据=", res)
       })
-      let res = await axiosFun(data);
-      console.log("-----",res)
+      
+      let data1 = {
+        name: 'jack',
+        age: 23
+      }
+      let res = await axiosFun(data1);
+      console.log("响应数据1--",res)
     }
   }
 }

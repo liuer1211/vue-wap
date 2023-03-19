@@ -25,5 +25,11 @@
     express --version
     4.16.1
 
+# axios
+    npm install axios
+    npm install qs
+
+    跨域配置 proxy
+
     
 

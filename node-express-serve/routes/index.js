@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+/* post home page. */
 router.post('/list', function(req, res, next) {
   console.log("=======",req.body)
   // res.render('index', { title: 'Express' });
@@ -9,7 +9,12 @@ router.post('/list', function(req, res, next) {
     code: 1,
     message: "ok",
     result: {
-      list: [{name:"张三",age:20}],
+      list: [
+        {
+          name:req.body.name,
+          age:req.body.age
+        }
+      ],
       page: 1,
       pageSize: 10,
       total: 1
