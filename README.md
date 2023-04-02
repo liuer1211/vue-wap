@@ -1,35 +1,26 @@
-# 开始
-    node -v
-      v16.17.1
-
-    vue -V
-      @vue/cli 4.5.15
-
+# 创建项目
     vue create vue-wap
 
+# 进入文件夹、启动、打包
     cd vue-wap
     npm run serve
     npm run build
-
-    git init
-    git add .
-    git commit -m "first commit"
-    git push --set-upstream origin master
-    git remote add origin git@github.com:liuer1211/vue-wap.git
-    git push
-
-# express 后台服务
-    npm install express -g
-    npm install express-generator -g
-
-    express --version
-    4.16.1
 
 # axios
     npm install axios
     npm install qs
 
-    跨域配置 proxy
+# vant
+    npm install vant@2.5.2
+    npm install amfe-flexible@2.2.1
+    npm install postcss-pxtorem@5.1.1
 
-    
-
+# 其他
+    npm install less@3.13.1 less-loader@5.0.0
+    npm install vue-router@3.5.3
+    npm install vuex@3.6.2
+    npm install vue-lazyload@1.2.3
+    npm install vue-video-player@5.0.2
+    npm install swiper@7.4.1
+    npm install echarts@4.9.0
+ 
